@@ -14,10 +14,10 @@
             <Image url="@assets/chatLogin.jpg" />
          </image>
       </ImageView>
-      <JFXButton layoutX="126.0" layoutY="585.0" onAction="#onActionLOgin" prefHeight="33.0" prefWidth="197.0" style="-fx-background-color: #17c0eb; -fx-background-radius: 20;" text="LOGIN" textFill="WHITE" />
-      <JFXTextField fx:id="txtUserName" layoutX="155.0" layoutY="538.0" prefHeight="29.0" prefWidth="138.0" promptText="ENTER USER NAME">
+      <JFXButton layoutX="95.0" layoutY="570.0" onAction="#onActionLOgin" prefHeight="40.0" prefWidth="270.0" style="-fx-background-color: #00c205; -fx-background-radius: 20;" text="LOGIN" textFill="WHITE" />
+      <JFXTextField fx:id="txtUserName" layoutX="95.0" layoutY="505.0" prefHeight="34.0" prefWidth="270.0" promptText="USER NAME">
          <font>
-            <Font size="15.0" />
+            <Font size="14.0" />
          </font></JFXTextField>
    </children>
 </AnchorPane>

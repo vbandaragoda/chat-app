@@ -10,29 +10,32 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="731.0" prefWidth="417.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Client2Controller">
-   <children>
-      <ImageView fitHeight="731.0" fitWidth="417.0" pickOnBounds="true">
-         <image>
-            <Image url="@assets/chatPage.jpg" />
-         </image>
-      </ImageView>
-      <JFXButton layoutX="348.0" layoutY="673.0" onAction="#sendMassageOnActopn" opacity="0.0" prefHeight="37.0" prefWidth="51.0" />
-      <Label fx:id="lblName" layoutX="63.0" layoutY="14.0" prefHeight="17.0" prefWidth="71.0">
-         <font>
-            <Font size="18.0" />
-         </font>
-      </Label>
-      <JFXTextField fx:id="txtMassageSend" layoutX="86.0" layoutY="676.0" prefHeight="23.0" prefWidth="246.0">
-         <font>
-            <Font size="16.0" />
-         </font>
-      </JFXTextField>
-      <ScrollPane fx:id="scrollPaneID" layoutX="-1.0" layoutY="48.0" prefHeight="615.0" prefWidth="417.0">
-         <content>
-            <VBox fx:id="vBox2" prefHeight="610.0" prefWidth="414.0" style="-fx-background-color: #DEF5FC;" />
-         </content>
-      </ScrollPane>
-      <JFXButton layoutX="14.0" layoutY="679.0" onAction="#onActionSendImage" opacity="0.0" prefHeight="27.0" prefWidth="23.0" />
-   </children>
+<AnchorPane prefHeight="720.0" prefWidth="417.0" xmlns="http://javafx.com/javafx/8.0.171"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Client2Controller">
+    <children>
+        <ImageView fitHeight="730.0" fitWidth="416.0" pickOnBounds="true">
+            <image>
+                <Image url="@assets/chatPage.jpg"/>
+            </image>
+        </ImageView>
+        <JFXButton layoutX="348.0" layoutY="673.0" onAction="#sendMassageOnActopn" opacity="0.0" prefHeight="37.0"
+                   prefWidth="51.0"/>
+        <Label fx:id="lblName" layoutX="63.0" layoutY="14.0" prefHeight="17.0" prefWidth="71.0">
+            <font>
+                <Font size="16.0"/>
+            </font>
+        </Label>
+        <JFXTextField fx:id="txtMassageSend" layoutX="40.0" layoutY="685.0" prefHeight="27.0" prefWidth="290.0">
+            <font>
+                <Font size="16.0"/>
+            </font>
+        </JFXTextField>
+        <ScrollPane fx:id="scrollPaneID" layoutX="-1.0" layoutY="48.0" prefHeight="615.0" prefWidth="417.0">
+            <content>
+                <VBox fx:id="vBox2" prefHeight="610.0" prefWidth="414.0" style="-fx-background-color: #ffffff;"/>
+            </content>
+        </ScrollPane>
+        <JFXButton layoutX="14.0" layoutY="677.0" onAction="#onActionSendImage" opacity="0.0" prefHeight="27.0"
+                   prefWidth="33.0"/>
+    </children>
 </AnchorPane>

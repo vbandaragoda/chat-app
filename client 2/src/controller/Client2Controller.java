@@ -86,9 +86,9 @@ public class Client2Controller {
 
             Label text = new Label ();
             text.setStyle("    -fx-background-radius: 20;" +
-                    "    -fx-background-color: #7190e0;\n" +
+                    "    -fx-background-color: #037509;\n" +
                     "    -fx-font-family: \"fantasy\";\n" +
-                    "    -fx-font-size: 12; -fx-padding: 8; -fx-start-margin: 200 ; -fx-text-fill: #fff");
+                    "    -fx-font-size: 15; -fx-padding: 8; -fx-start-margin: 200 ; -fx-text-fill: #fff");
             text.setText (" " + massage + " ");
             text.setMinWidth (200);
             final Group root = new Group ();
@@ -184,7 +184,7 @@ public class Client2Controller {
             text.setStyle("     -fx-background-radius: 20;" +
                     "    -fx-background-color: #7190e0;\n" +
                     "    -fx-font-family: \"fantasy\";\n" +
-                    "    -fx-font-size: 12; -fx-padding: 8; -fx-start-margin: 200 ; -fx-text-fill: #fff");
+                    "    -fx-font-size: 15; -fx-padding: 8; -fx-start-margin: 200 ; -fx-text-fill: #fff");
             text.setText (" " + sendMassage + " ");
 //            text.setMinWidth (200);
             final Group root = new Group ();

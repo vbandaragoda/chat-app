@@ -18,7 +18,7 @@
                 <Image url="@assets/chatPage.jpg"/>
             </image>
         </ImageView>
-        <JFXTextField fx:id="txtMassage" layoutX="40.0" layoutY="685.0" prefHeight="27.0" prefWidth="290.0">
+        <JFXTextField fx:id="txtMassage" layoutX="65.0" layoutY="685.0" prefHeight="27.0" prefWidth="290.0">
             <font>
                 <Font size="16.0"/>
             </font>
